@@ -34,6 +34,8 @@
 							<th>Paterno</th>
 							<th>Materno</th>
 							<th>Nombres</th>
+							<th></th>
+							<th></th>
 						</tr>
 					</thead>
 					<tbody>
@@ -46,6 +48,8 @@
 						<td><?=$aResultado['paterno']?></td>
 						<td><?=$aResultado['materno']?></td>
 						<td><?=$aResultado['nombres']?></td>
+						<td><a href="contacto_modifica.php?id=<?=$aResultado['contacto_id']?>" class="btn btn-default btn-xs"><span class="glyphicon glyphicon glyphicon-pencil"></span></td>
+						<td><a href="contacto_elimina.php?id=<?=$aResultado['contacto_id']?>" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-remove"></span></a></td>
 					</tr>
 <?php
 					$vCantidad++;
