@@ -7,8 +7,8 @@
 
 	$sConsulta	=	"INSERT INTO contacto "
 				.	"SET "
-				.	"paterno = '{$_POST['txt-paterno']}', ";
-				.	"materno = '{$_POST['txt-materno']}', ";
+				.	"paterno = '{$_POST['txt-paterno']}', "
+				.	"materno = '{$_POST['txt-materno']}', "
 				.	"nombres = '{$_POST['txt-nombres']}' ";
 
 	if ( $qContacto = _mysqliCRUD($sConsulta)) {
