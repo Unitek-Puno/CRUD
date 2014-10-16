@@ -27,7 +27,7 @@
 		</div>
 		<div class="col-md-6">
 
-			<h4 class="text-info">Agregar Nuevo Contacto</h4>
+			<h4 class="text-info">Modificar Contacto</h4>
 			<form id="form-nuevo" name="form-nuevo" class="form-horizontal" role="form" action='contacto_modifica_guarda.php' method="post" >
 				<input type="text" class="form-control"  name="txt-id" value="<?=$aContacto['contacto_id']?>">
 				<div class="form-group">
