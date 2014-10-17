@@ -34,14 +34,26 @@
 
 			<form id="form-nuevo" name="form-nuevo" class="form-horizontal" role="form" action='contacto_guarda.php' method="post" >
 				<div class="form-group">
-					<label for="txt-paterno" class="col-md-3 control-label">Apellido Paterno:</label>
-					<div class="col-md-5">
+					<label for="txt-paterno" class="col-md-4 control-label">Apellido Paterno:</label>
+					<div class="col-md-4">
 						<input type="text" class="form-control"  name="txt-paterno" placeholder="Apellido Paterno" maxlength="30">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="txt-materno" class="col-md-4 control-label">Apellido Materno:</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control"  name="txt-materno" placeholder="Apellido Materno" maxlength="30">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="txt-paterno" class="col-md-4 control-label">Apellido Nombres:</label>
+					<div class="col-md-4">
+						<input type="text" class="form-control"  name="txt-nombres" placeholder="Apellido Nombres" maxlength="35">
 					</div>
 				</div>
 
 				<div class="form-group">
-					<div class="col-md-offset-3 col-sm-5">
+					<div class="col-md-offset-4 col-sm-4">
 						<button type="submit" class="btn btn-primary">Guardar</button> <a class="btn btn-danger" href="../">Cancelar</a>
 					</div>
 				</div>

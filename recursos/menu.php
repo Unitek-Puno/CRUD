@@ -15,6 +15,7 @@
 				<li><a href="busqueda.php">Busquedas</a></li>
 				<li><a href="acercade.php">Acerca de</a></li>
 				<li><a href="contacto.php">Contacto</a></li>
+				<li><a href="listado.php">Listar</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>
