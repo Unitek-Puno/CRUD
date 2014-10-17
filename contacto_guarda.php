@@ -15,7 +15,7 @@
 
 		if ($qContacto) {
 			$_SESSION['app_mensaje'] = "Contacto guardado correctamente!...";
-			header("Location: contacto.php");
+			header("Location: listado.php");
 		}else{
 			$_SESSION['app_error'] = "Contacto guardado correctamente!...";
 			header("Location: contacto.php");
